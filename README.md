@@ -4,14 +4,8 @@ R package for reading US mortality data from the [National Center for Health Sta
 
 # Installation
 
-Install *devtools* if you don't already have it:
+To install the package, use `install_github()` from the *remotes* package or `pkg_install()` from the *pak* package:
 
 ```r
-install.packages('devtools')
-```
-
-Install the *readUSmortality* package:
-
-```r
-devtools::install_github('yea-hung/readUSmortality')
+pak::pkg_install('yea-hung/readUSmortality')
 ```
